@@ -42,6 +42,9 @@ class ContaCorrente extends Conta {
 }
 
 class ContaPoupanca extends Conta {    
+    // crie o construtor da conta poupança, com uma propriedade taxaRendimento
+    // a taxa é por padrão 0.2
+    // crie uma função aplicarRendimento() que não precisa fazer nada por hora
     constructor(numero, saldo = 0, taxaRendimento = 0.2) {
         super(numero, saldo)
         this.taxaRendimento = taxaRendimento;
